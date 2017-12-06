@@ -9,14 +9,20 @@ A simple command line app to help you flush or delete Redis keys easily.
 ```
 $ go get github.com/ipanardian/goflush
 ```
+Make sure your PATH includes the $GOPATH/bin directory
 
 ## How to use
 ```
-$ goflush //no argument will flush all keys
+//flush all keys
+$ goflush
 $ OK
 
-$ goflush follower //will delete key 'follower'
+//delete specific key
+$ goflush {key_name}
 $ (integer) 1
+
+$ goflush -version / -v
+$ goflush help
 ```
 
 ## License
