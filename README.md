@@ -17,6 +17,7 @@ $ OK
 
 $ goflush follower //will delete key 'follower'
 $ (integer) 1
+```
 
 ## License
 Apache License 2.0
